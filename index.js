@@ -34,7 +34,7 @@ function render(leads) {
     }
     ulEl.innerHTML = listItems
 }
-
+ 
 deleteBtn.addEventListener("dblclick", function() {
     localStorage.clear()
     myLeads = []
